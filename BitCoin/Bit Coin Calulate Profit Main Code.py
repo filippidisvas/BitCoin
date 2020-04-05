@@ -2,6 +2,8 @@
 # s = Current Price 
 # i = Investment Amount (change 0.35)
 
+#Change test second
+
 currency = 'Bitcoin'
 
 #-----------Change-----------
