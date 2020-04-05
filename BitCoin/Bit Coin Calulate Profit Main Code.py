@@ -8,10 +8,10 @@
 currency = 'Bitcoin'
 
 #-----------Change-----------
-b = 6694        #Buying price
-s = 6900   # Change to reflec the current price to see your profits
-i = 0.35*b      #Change the Bitcoin ammount after purchuse
-fee = 5.8       #change after making the trade
+b = 6891        #Buying price
+s = 6840   # Change to reflec the current price to see your profits
+i = 0.45*b      #Change the Bitcoin ammount after purchuse
+fee = 14       #change after making the trade
 #----------Formulas----------
 
 
@@ -25,7 +25,7 @@ target_price = (target_perc*b)
 
 #------------Calculate Stop Loss Price based on profit target-------------------
 
-loss_perc = ((target_perc-1)/2)-1
+loss_perc = ((target_perc-1)/3)-1
 loss_price = loss_perc*b
 
 #----------------------------------------

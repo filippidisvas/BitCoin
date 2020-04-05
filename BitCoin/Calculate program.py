@@ -1,14 +1,9 @@
-b = input('Give Bitcoin Buying price: ')
-s = input('Give Current Bitcoin Price:  ')
-l = input('Give the BitCoin Amount that you purchased:  ')
-l1 = input('Give the Amount you wish to earn:  ')
-fee = input('Give Transaction Fee if known:  ')
+b = float(input('Give Bitcoin Buying price: '))
+s = float(input('Give Current Bitcoin Price:  '))
+l = float(input('Give the BitCoin Amount that you purchased:  '))
+l1 = float(input('Give the Amount you wish to earn:  '))
+fee = float(input('Give Transaction Fee if known:  '))
 
-b=float(b)
-fee=float(fee)
-s=float(s)
-l=float(l)
-l1=float(l1)
 
 i = l*b      #Change the Bitcoin ammount after purchuse
 
