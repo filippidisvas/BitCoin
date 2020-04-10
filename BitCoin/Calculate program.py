@@ -6,6 +6,7 @@ elif b==0:
     print('!Warning Bitcoin Price Cannot be 0')
 
 s = float(input('Give Current Bitcoin Price:  '))
+
 l = float(input('Give the BitCoin Amount that you purchased:  '))
 l1 = float(input('Give the Amount you wish to earn:  '))
 fee = float(input('Give Transaction Fee if known:  '))

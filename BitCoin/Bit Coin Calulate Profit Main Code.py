@@ -8,10 +8,10 @@
 currency = 'Bitcoin'
 
 #-----------Change-----------
-b = 6891        #Buying price
-s = 6840   # Change to reflec the current price to see your profits
-i = 0.45*b      #Change the Bitcoin ammount after purchuse
-fee = 14       #change after making the trade
+b = 6858        #Buying price
+s = 6891   # Change to reflec the current price to see your profits
+i = 0.38*b      #Change the Bitcoin ammount after purchuse
+fee = (i*0.0048)       #change after making the trade
 #----------Formulas----------
 
 
